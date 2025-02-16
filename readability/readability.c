@@ -71,7 +71,8 @@ int count_words(const char str[])
         // ou o final da string
         if (str[i] == ' ' && str[i + 1] != ' ' && str[i + 1] != '\0')
         {
-            words++;        }
+            words++;        
+        }
     }
 
     // Adiciona uma palavra para o primeiro grupo de caracteres (se não começar com espaço)
